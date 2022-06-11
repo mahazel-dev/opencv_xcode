@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		663E9ACE2854D26E009D63D8 /* chapter4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 663E9ACC2854D26E009D63D8 /* chapter4.cpp */; };
 		66FCB7842850794B004DA0F6 /* libopencv_quality.4.5.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FCB74C28507949004DA0F6 /* libopencv_quality.4.5.5.dylib */; };
 		66FCB7852850794B004DA0F6 /* libopencv_xobjdetect.4.5.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FCB74D28507949004DA0F6 /* libopencv_xobjdetect.4.5.5.dylib */; };
 		66FCB7862850794B004DA0F6 /* libopencv_stereo.4.5.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FCB74E28507949004DA0F6 /* libopencv_stereo.4.5.5.dylib */; };
@@ -124,6 +125,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		663E9ACC2854D26E009D63D8 /* chapter4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chapter4.cpp; sourceTree = "<group>"; };
 		66FCB742285078A5004DA0F6 /* opencv_xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opencv_xcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FCB74C28507949004DA0F6 /* libopencv_quality.4.5.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_quality.4.5.5.dylib; sourceTree = "<group>"; };
 		66FCB74D28507949004DA0F6 /* libopencv_xobjdetect.4.5.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_xobjdetect.4.5.5.dylib; sourceTree = "<group>"; };
@@ -465,6 +467,7 @@
 				66FCB81428507A34004DA0F6 /* Resources */,
 				66FCB81828510BF6004DA0F6 /* chapter1.cpp */,
 				66FCB81A28511AC4004DA0F6 /* chapter2.cpp */,
+				663E9ACC2854D26E009D63D8 /* chapter4.cpp */,
 			);
 			path = opencv_xcode;
 			sourceTree = "<group>";
@@ -527,6 +530,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66FCB81C28511AC4004DA0F6 /* chapter2.cpp in Sources */,
+				663E9ACE2854D26E009D63D8 /* chapter4.cpp in Sources */,
 				66FCB81928510BF6004DA0F6 /* chapter1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

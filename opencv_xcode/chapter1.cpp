@@ -21,7 +21,6 @@ int main () {
     
 }
 */
-
 /*
 /////////    Video  ////////
 ///
@@ -34,8 +33,7 @@ int main () {
     
     while (true)    {
         cap.read(img);
-        cv::imshow("image" ,img);here was an error parsing the Info.plist for the bundle at URL <0x10b8500f0>: NSCocoaErrorDomain - 3840
-        cv::waitKey(50);
+        cv::imshow("image" ,img);cv::waitKey(50);
         
     }
     
@@ -47,10 +45,16 @@ int main () {
     
     cv::VideoCapture cap(0);
     cv::Mat img;
+    cv::Mat imgCanny;
+    cv::Mat imgBlur;
+    
+
     
     while (true)    {
         cap.read(img);
-        cv::imshow("image" ,img);
+        cv::GaussianBlur(img, imgBlur, cv::Size(5, 5), 3, 0);
+        cv::Canny(imgBlur, imgCanny, 40, 80);
+        cv::imshow("image" ,imgCanny);
         cv::waitKey(1);
     }
 }
