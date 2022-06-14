@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		663E9ACE2854D26E009D63D8 /* chapter4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 663E9ACC2854D26E009D63D8 /* chapter4.cpp */; };
 		663E9AD12854D714009D63D8 /* chapter5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 663E9ACF2854D714009D63D8 /* chapter5.cpp */; };
+		669BC0B828566AEE007CD12A /* chapter6.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 669BC0B628566AEE007CD12A /* chapter6.cpp */; };
+		669BC0BB2856789E007CD12A /* video_fun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 669BC0B92856789E007CD12A /* video_fun.cpp */; };
+		669BC0BE2857D64F007CD12A /* chapter7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 669BC0BC2857D64F007CD12A /* chapter7.cpp */; };
+		669BC0C128591C20007CD12A /* chapter8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 669BC0BF28591C20007CD12A /* chapter8.cpp */; };
+		669BC0C428591F3D007CD12A /* chapter8_video.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 669BC0C228591F3D007CD12A /* chapter8_video.cpp */; };
 		66FCB7842850794B004DA0F6 /* libopencv_quality.4.5.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FCB74C28507949004DA0F6 /* libopencv_quality.4.5.5.dylib */; };
 		66FCB7852850794B004DA0F6 /* libopencv_xobjdetect.4.5.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FCB74D28507949004DA0F6 /* libopencv_xobjdetect.4.5.5.dylib */; };
 		66FCB7862850794B004DA0F6 /* libopencv_stereo.4.5.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 66FCB74E28507949004DA0F6 /* libopencv_stereo.4.5.5.dylib */; };
@@ -128,6 +133,11 @@
 /* Begin PBXFileReference section */
 		663E9ACC2854D26E009D63D8 /* chapter4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chapter4.cpp; sourceTree = "<group>"; };
 		663E9ACF2854D714009D63D8 /* chapter5.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chapter5.cpp; sourceTree = "<group>"; };
+		669BC0B628566AEE007CD12A /* chapter6.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chapter6.cpp; sourceTree = "<group>"; };
+		669BC0B92856789E007CD12A /* video_fun.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = video_fun.cpp; sourceTree = "<group>"; };
+		669BC0BC2857D64F007CD12A /* chapter7.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chapter7.cpp; sourceTree = "<group>"; };
+		669BC0BF28591C20007CD12A /* chapter8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chapter8.cpp; sourceTree = "<group>"; };
+		669BC0C228591F3D007CD12A /* chapter8_video.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = chapter8_video.cpp; sourceTree = "<group>"; };
 		66FCB742285078A5004DA0F6 /* opencv_xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = opencv_xcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FCB74C28507949004DA0F6 /* libopencv_quality.4.5.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_quality.4.5.5.dylib; sourceTree = "<group>"; };
 		66FCB74D28507949004DA0F6 /* libopencv_xobjdetect.4.5.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopencv_xobjdetect.4.5.5.dylib; sourceTree = "<group>"; };
@@ -471,6 +481,11 @@
 				66FCB81A28511AC4004DA0F6 /* chapter2.cpp */,
 				663E9ACC2854D26E009D63D8 /* chapter4.cpp */,
 				663E9ACF2854D714009D63D8 /* chapter5.cpp */,
+				669BC0B628566AEE007CD12A /* chapter6.cpp */,
+				669BC0B92856789E007CD12A /* video_fun.cpp */,
+				669BC0BC2857D64F007CD12A /* chapter7.cpp */,
+				669BC0BF28591C20007CD12A /* chapter8.cpp */,
+				669BC0C228591F3D007CD12A /* chapter8_video.cpp */,
 			);
 			path = opencv_xcode;
 			sourceTree = "<group>";
@@ -533,9 +548,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				66FCB81C28511AC4004DA0F6 /* chapter2.cpp in Sources */,
+				669BC0BE2857D64F007CD12A /* chapter7.cpp in Sources */,
 				663E9AD12854D714009D63D8 /* chapter5.cpp in Sources */,
+				669BC0B828566AEE007CD12A /* chapter6.cpp in Sources */,
+				669BC0C128591C20007CD12A /* chapter8.cpp in Sources */,
+				669BC0C428591F3D007CD12A /* chapter8_video.cpp in Sources */,
 				663E9ACE2854D26E009D63D8 /* chapter4.cpp in Sources */,
 				66FCB81928510BF6004DA0F6 /* chapter1.cpp in Sources */,
+				669BC0BB2856789E007CD12A /* video_fun.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

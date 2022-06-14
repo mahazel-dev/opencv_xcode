@@ -12,7 +12,7 @@
 #include <filesystem>
 
 // Warp images
-
+/*
 int main () {
     std::string path = "/Users/adam/Desktop/opencv_xcode/opencv_xcode/Resources/cards.jpg";
     cv::Mat img = cv::imread(path);
@@ -34,5 +34,5 @@ int main () {
     cv::imshow("warp image", imgWarp);
     cv::waitKey(0);
     
-    
 }
+*/
